@@ -1,0 +1,30 @@
+.content {
+    display: flex;
+    width: 1567px;
+}
+
+.search {
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 16px;
+    gap: 16px;
+    background: #F7F7F8;
+    position: absolute;
+    width: 446px;
+    height: 48px;
+    left: 24px;
+    top: 95px;
+    border-radius: 8px;
+}
+
+.input {
+    position: absolute;
+    left: 0%;
+    right: 14.29%;
+    top: 0%;
+    bottom: 14.28%;
+}
+
+.text {
+    width: 446px;
+}

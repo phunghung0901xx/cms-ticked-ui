@@ -1,0 +1,28 @@
+.content {
+  border-radius: 24px;
+  position: absolute;
+  height: 963px;
+  left: 321px;
+  top: 85px;
+  background: #FFFFFF;
+  border-radius: 24px;
+  right: 32px;
+}
+
+.header {
+  position: absolute;
+  width: 276px;
+  height: 64px;
+  top: 24px;
+  left: 24px;
+  font-weight: 700;
+  font-size: 31px;
+  Line-height: 54px;
+  color: #000000;
+}
+
+.fa-solid {
+  background: #1E0D03;
+  width: 24px;
+  height: 24px;
+}
