@@ -23,8 +23,72 @@
     right: 14.29%;
     top: 0%;
     bottom: 14.28%;
+    width: 446px;
+    height: 48px;
 }
 
 .text {
+    background: #F7F7F8;
+    padding-left: 16px;
+    opacity: 30%;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 19.5px;
     width: 446px;
+    height: 48px;
+    outline: none;
+    border: none;
+}
+
+.icon {
+    position: absolute;
+    left: 90%;
+    right: 16.29%;
+    top: 22%;
+    bottom: 14.28%;
+}
+
+.button {
+    position: absolute;
+    width: 127px;
+    height: 48px;
+    left: 69%;
+    right: 16.29%;
+    top: 9.9%;
+    bottom: 14.28%;
+    border: 1px solid #FF993C;
+    border-radius: 6px;
+    padding: 11px 16px 11px 16px;
+    background-color: #FFFFFF;
+}
+
+.button-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #FF993C;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 700;
+}
+
+.button-2 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 24px;
+    gap: 10px;
+    position: absolute;
+    width: 181px;
+    height: 48px;
+    left: 81%;
+    right: 16.29%;
+    top: 9.9%;
+    bottom: 14.28%;
+    border: 1px solid #FF993C;
+    border-radius: 8px;
+    background-color: #ffff;
 }

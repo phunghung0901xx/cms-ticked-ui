@@ -10,3 +10,66 @@
     padding: 0px;
     gap: 59px;
 }
+
+.img {
+    background: url('../../../asset/img/insight-05\ 1.png');
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    width: 133px;
+    height: 58px;
+}
+
+.menu {
+    position: absolute;
+    top: 22%;
+    margin-left: 38px;
+}
+
+.menu-column {
+    border-radius: 8px;
+    padding-top: 15px;
+    padding-right: 16px;
+    padding-bottom: 15px;
+    padding-left: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 12px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #1E0D03;
+    font-family: "Montserrat";
+    opacity: 60%;
+}
+
+.icon-1 {
+    color: #1E0D03;
+    opacity: 60%;
+}
+
+.icon-2 {
+    margin-top: 6px;
+    color: #1E0D03;
+    opacity: 60%;
+}
+
+.icon-4 {
+    margin-top: 2px;
+    color: #1E0D03;
+    opacity: 60%;
+}
+
+.icon-3 {
+    color: #1E0D03;
+    opacity: 60%;
+}

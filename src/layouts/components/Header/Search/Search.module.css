@@ -1,0 +1,73 @@
+.search {
+  position: relative;
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 16px;
+  gap: 16px;
+  position: absolute;
+  width: 470px;
+  height: 48px;
+  left: 321px;
+  top: 17px;
+  background: #EDEDED;
+  border-radius: 12px;
+  outline: none;
+  border: none;
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #1E0D03;
+  opacity: 0.3;
+}
+
+.svg-list {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  width: 144px;
+  height: 48px;
+  left: 1744px;
+  top: 17px;
+}
+
+.svg {
+  position: absolute;
+  left: 8.33%;
+  right: 8.33%;
+  top: 25%;
+  bottom: 45.83%;
+  /* Text */
+}
+
+.svg-1 {
+  /* Inside auto layout */
+  position: absolute;
+  left: 42.79%;
+  right: 42.79%;
+  top: 26.5%;
+  bottom: 8.35%;
+}
+
+.img {
+  background-image: url("../../../../asset/img/Frame 54.png");
+  width: 48px;
+  height: 48px;
+  border-radius: 30px;
+  /* Inside auto layout */
+  position: absolute;
+  left: 42.79%;
+  right: 42.79%;
+  top: 26.5%;
+  bottom: 8.35%;
+}
