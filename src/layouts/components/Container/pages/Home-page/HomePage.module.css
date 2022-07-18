@@ -1,0 +1,26 @@
+.content {
+  position: absolute;
+  width: 1567px;
+  height: 963px;
+  left: 321px;
+  top: 85px;
+  background: #FFFFFF;
+  border-radius: 24px;
+}
+
+.line {
+  position: absolute;
+  width: 1488px;
+  height: 327px;
+  left: 24px;
+  top: 109px;
+  display: block;
+}
+
+.pie {
+  position: absolute;
+  width: 246px;
+  height: 246px;
+  left: 33px;
+  top: 13px;
+}

@@ -1,8 +1,15 @@
 import classNames from 'classnames/bind';
 import styles from './Search.module.scss'
+import { useState } from 'react';
+import ButtonCheck from './ButtonCheck/ButtonCheck'
 const cx=classNames.bind(styles)
 function Search() {
-    return <div className={cx('content') }>
+  
+  const [state, setState]=useState()
+  
+    
+    return <div className={cx('content') } >
+      
       <div className={cx("search")}>
           <div className={cx("input")}>
           <input type="text" className={cx("text")} placeholder="Tìm bằng số vé"/>
@@ -12,17 +19,10 @@ function Search() {
           
           </div>
       </div>
-      <button className={cx("button")} >
-        <span className={cx("button-text")}>
-        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20" fill="none">
-<path d="M21 1H1L9 10.46V17L13 19V10.46L21 1Z" stroke="#FF993C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>Lọc vé</span>
-      </button>
-      <button className={cx("button-2")} >
-        <span className={cx("button-text")}>
-       Xuất file (.csv)</span>
-      </button>
+       
+      
     </div>
+
 }
 
 export default Search;

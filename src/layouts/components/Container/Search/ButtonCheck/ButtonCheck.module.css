@@ -1,0 +1,57 @@
+.content {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+  left: 0px;
+  top: 0px;
+  border-radius: 24px;
+  z-index: 1;
+  display: none;
+}
+
+.content-button {
+  position: absolute;
+  width: 634px;
+  height: 454px;
+  background-color: #ccc;
+  border-radius: 16px;
+  z-index: 1;
+  top: 22%;
+  left: 21%;
+}
+
+.checkbox--button {
+  box-sizing: border-box;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 11px 24px;
+  gap: 10px;
+  position: absolute;
+  width: 160px;
+  height: 48px;
+  left: 224px;
+  bottom: 23px;
+  /* Yellow/1 */
+  border: 1px solid #FF993C;
+  border-radius: 8px;
+  width: 34px;
+  height: 26px;
+  /* 18 bold */
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  /* identical to box height, or 144% */
+  display: flex;
+  align-items: center;
+  /* Yellow/1 */
+  color: #FF993C;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}

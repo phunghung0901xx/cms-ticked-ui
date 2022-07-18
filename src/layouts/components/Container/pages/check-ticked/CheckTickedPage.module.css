@@ -1,0 +1,140 @@
+.sidebar {
+  position: absolute;
+  width: 440px;
+  height: 963px;
+  left: 1434px;
+  top: 85px;
+  background: #FFFFFF;
+  border-radius: 24px;
+}
+
+.text--header {
+  position: absolute;
+  width: 61px;
+  height: 22px;
+  left: 24px;
+  top: 16px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  color: #1E0D03;
+}
+
+.notice {
+  position: absolute;
+  width: 360px;
+  height: 40px;
+  left: 24px;
+  top: 70px;
+  background: #F1F4F8;
+  border-radius: 8px;
+}
+
+.text-notice {
+  position: absolute;
+  width: 271px;
+  height: 20px;
+  left: 16px;
+  top: 10px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  color: #7C7D95;
+}
+
+.icon {
+  position: absolute;
+  left: 116%;
+  right: 0%;
+  top: 21.5%;
+  bottom: 21.5%;
+}
+
+.status {
+  position: absolute;
+  width: 159px;
+  height: 26px;
+  left: 24px;
+  top: 134px;
+  /* 16 semibold */
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  display: flex;
+  align-items: center;
+  /* Text */
+  color: #1E0D03;
+  opacity: 0.8;
+}
+
+.status-check {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+  position: absolute;
+  width: 144px;
+  height: 96px;
+  left: 206px;
+  top: 135px;
+}
+
+.check-text {
+  width: 51px;
+  height: 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #1E0D03;
+  opacity: 0.7;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  position: absolute;
+  top: 2%;
+  left: 16%;
+  right: 10%;
+}
+
+.check {
+  width: 24px;
+  height: 24px;
+  background: #FFFFFF;
+  border-radius: 20px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  position: absolute;
+  left: -5%;
+}
+
+.check-2 {
+  width: 24px;
+  height: 24px;
+  border-radius: 24px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  position: absolute;
+  top: 31%;
+  left: -3%;
+}
