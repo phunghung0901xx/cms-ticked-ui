@@ -50,6 +50,7 @@
   color: #1E0D03;
   font-family: "Montserrat";
   opacity: 60%;
+  text-decoration: none;
 }
 
 .icon-1 {
@@ -72,4 +73,33 @@
 .icon-3 {
   color: #1E0D03;
   opacity: 60%;
+}
+
+.text a {
+  text-decoration: none;
+}
+
+.menu-column-2 {
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px 16px 15px 80px;
+  gap: 12px;
+  position: absolute;
+  width: 252px;
+  height: 41px;
+  left: 0px;
+  top: 223px;
+  border-radius: 8px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  /* identical to box height, or 144% */
+  letter-spacing: 0.015em;
+  /* Text */
+  color: #1E0D03;
+  opacity: 0.6;
 }
